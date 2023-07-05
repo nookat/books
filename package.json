@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "app.js",
+  "type": "module",
   "scripts": {
-    "build": "rollup",
+    "build": "rollup -c --watch",
     "start": "browser-sync start --server -w"
   },
   "repository": {
@@ -17,10 +18,10 @@
     "url": "https://github.com/nookat/books/issues"
   },
   "homepage": "https://github.com/nookat/books#readme",
-  "dependencies": {
-    "rollup": "^3.26.1"
-  },
   "devDependencies": {
-    "eslint": "^8.44.0"
+    "@rollup/plugin-node-resolve": "^15.1.0",
+    "eslint": "^8.44.0",
+    "rollup": "^3.26.1",
+    "rollup-plugin-import-css": "^3.3.1"
   }
 }
