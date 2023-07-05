@@ -1,0 +1,26 @@
+{
+  "name": "books",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "build": "rollup",
+    "start": "browser-sync start --server -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nookat/books.git"
+  },
+  "author": "Alexander Sosov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nookat/books/issues"
+  },
+  "homepage": "https://github.com/nookat/books#readme",
+  "dependencies": {
+    "rollup": "^3.26.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.44.0"
+  }
+}
