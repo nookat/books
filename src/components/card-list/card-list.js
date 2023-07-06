@@ -17,7 +17,7 @@ export class CardList extends DivComponent {
     }
 
     this.el.innerHTML = `
-      <h1>Найдено книг ${this.appState.list.length}</h1>
+      <h1>Найдено книг ${this.parentState.list.length}</h1>
     `;
     return this.el;
   }
